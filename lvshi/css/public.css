@@ -1,0 +1,52 @@
+body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input{padding: 0;margin: 0;list-style:none;}
+img{border: none;margin: 0;padding: 0;}
+a{text-decoration: none;}
+*{box-sizing:border-box}
+html, body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", 微软雅黑, Verdana, Arial;
+    background-color: rgb(255, 255, 255);
+}
+
+.n-namelist{
+    margin-bottom: 20px;
+    padding: 40px 0 20px;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+.n-name-content{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.n-name-list{
+    margin-top: 50px;
+    text-align: center;
+}
+.n-name-title h1{
+    height: 38px;
+    line-height: 35px;
+    color: rgb(196,176,125);
+    padding: 0 15px;
+    border-left: 2px solid rgb(196,176,125);
+    display: inline-block;
+}
+.n-enname{
+    font-size: 18px;
+    color: rgb(196,176,125);
+}
+.n-block{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(196,176,125);
+}
+.n-name-list a{
+    color:#333;
+    padding: 20px 15px;
+}
+.n-name-list a:hover, .n-name-list a.actived {
+    border-bottom: 3px solid rgb(196,176,125);
+}
+
+
