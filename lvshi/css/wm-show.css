@@ -1,0 +1,50 @@
+.wm-container{
+    width:1200px;
+    height:auto;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:120px;
+    display:flex;
+}
+.wm-left{
+    width:400px;
+    height:auto;
+}
+.wm-left img{
+    display:block;
+    width:400px;
+    height:590px;
+    margin-bottom:30px;
+}
+.wm-msg{
+    font-size:14px;
+    line-height: 25px;
+}
+.wm-right{
+    width:740px;
+    height:auto;
+    margin-left:60px;
+}
+.wm-author{
+    line-height:40px;
+}
+.wm-cnnane{
+    font-size:28px;
+    color:#C4B07D;
+}
+.wm-enname{
+    font-size:18px;
+    color:#C4B07D;
+}
+.wm-rcon li{
+    margin-top:40px;
+}
+.wm-title{
+    font-size:20px;
+    color:#CBB07D;
+}
+.wm-content{
+    font-size:14px;
+    line-height: 25px;
+    margin-top:25px;
+}

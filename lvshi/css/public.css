@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input{padding: 0;margin: 0;list-style:none;}
 img{border: none;margin: 0;padding: 0;}
 a{text-decoration: none;}
@@ -8,7 +7,9 @@ html, body {
     font-family: "Microsoft YaHei", 微软雅黑, Verdana, Arial;
     background-color: rgb(255, 255, 255);
 }
-
+.n-name-title{
+    height:122px;
+}
 .n-namelist{
     margin-bottom: 20px;
     padding: 40px 0 20px;
@@ -41,6 +42,7 @@ html, body {
     width: 15px;
     height: 15px;
     background-color: rgb(196,176,125);
+    margin-top:20px;
 }
 .n-name-list a{
     color:#333;
@@ -49,69 +51,3 @@ html, body {
 .n-name-list a:hover, .n-name-list a.actived {
     border-bottom: 3px solid rgb(196,176,125);
 }
-
-
-=======
-body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input,span,header,b,section,i,header,li,nav,article,aside,figure,code,dialog,footer{
-    margin: 0px;padding: 0px;list-style: none;font-weight: normal;outline: none;
-    border:none;
-}
-img{
-    border: none;
-}
-a{
-    text-decoration: none;
-}
-a,button{
-   -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-body{
-    font-family: "苹方 中等方","微软雅黑","Helvetica Neue LT Rro";color: #333;background:#fff;font-size: 12px;
-}
-*{
-    box-sizing:border-box;
-}
-html{
-    font-size: 100px;
-}
-@media all and (min-width:320px){
-    html{
-        font-size: 42.6px;
-    }
-    body{
-        font-size: 42.6px;
-    }
-}
-@media all and (min-width:360px){
-    html{
-        font-size: 48px;
-    }
-    body{
-        font-size: 42.6px;
-    }
-}
-@media all and (min-width:375px) {
-        html {
-            font-size: 50px;
-        }
-    body{
-        font-size: 42.6px;
-    }
-}
-@media all and (min-width:414px) {
-    html {
-        font-size: 55.2px;
-    }
-    body{
-        font-size: 42.6px;
-    }
-}
-@media all and (min-width:750px) {
-    html {
-        font-size: 100px;
-    }
-    body{
-        font-size: 42.6px;
-    }
-}
->>>>>>> origin/master
