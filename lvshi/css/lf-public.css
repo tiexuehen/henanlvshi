@@ -1,0 +1,209 @@
+body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input,li{padding: 0;margin: 0;list-style:none;}
+img{border: none;margin: 0;padding: 0;}
+a{text-decoration: none;}
+*{box-sizing:border-box}
+html, body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", 微软雅黑, Verdana, Arial;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*导航部分开始*/
+.n-nav{
+    position: fixed;
+    background-color: rgba(51,51,51,0.7);
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgb(97,96,115);
+    z-index:100;
+}
+.n-nav-content{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.n-nav-logo{
+    float: left;
+    margin-top: 7px;
+    display: block;
+}
+.n-nav-logo img {
+    display: block;
+    border: none;
+}
+.n-nav-list{
+    height: 100%;
+    letter-spacing: 1px;
+    line-height: 97px;
+    float: right;
+}
+.n-nav-list li{
+    position: relative;
+    float: left;
+
+    margin: 0 8px;
+    transition: all .3s ease-in-out;
+}
+.n-nav-list li>a{
+    position: relative;
+    z-index: 100;
+    padding: 10px;
+    color: rgb(196,176,125);
+    letter-spacing: 1px;
+    line-height: 97px;
+}
+.n-nav-list li:hover, .n-nav-list li.actived {
+    border-bottom: 3px solid rgb(196,176,125);
+}
+.n-nav-list li:hover a {
+    background-color: rgb(247,237,211);
+}
+
+.nav-hidden-list{
+    position: absolute;
+    display: none;
+    left: 0;
+    min-width: 100%;
+    top: 70px;
+    padding: 5px 0;
+    line-height: 25px;
+    background-color: rgb(247,237,211);
+    z-index: 90;
+}
+.nav-hidden-list a{
+    display: block;
+    line-height: 25px;
+    padding: 0 10px;
+    margin: 5px 0;
+    color: rgb(196,176,125);
+}
+.hidden{
+    display: block;
+}
+
+/*导航部分结束*/
+/*banner图开始*/
+.n-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*banner图结束*/
+
+
+.n-name-title{
+    height:122px;
+}
+.n-namelist{
+    margin-bottom: 20px;
+    padding: 40px 0 20px;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+.n-name-content{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.n-name-list{
+    margin-top: 50px;
+    text-align: center;
+}
+.n-name-title h1{
+    height: 38px;
+    line-height: 35px;
+    color: rgb(196,176,125);
+    padding: 0 15px;
+    border-left: 2px solid rgb(196,176,125);
+    display: inline-block;
+}
+.n-enname{
+    font-size: 18px;
+    color: rgb(196,176,125);
+}
+.n-block{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(196,176,125);
+    margin-top:20px;
+}
+.n-name-list a{
+    color:#333;
+    padding: 20px 15px;
+}
+.n-name-list a:hover, .n-name-list a.actived {
+    border-bottom: 3px solid rgb(196,176,125);
+}
+
+/*底部开始*/
+.n-footer{
+    background-color: rgb(31,31,31);
+    position: relative;
+    height: auto;
+}
+.n-content{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.n-address{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    float: left;
+    background-image: url(../images/njm/footer-xian.png);
+    background-repeat: repeat-y;
+    background-position: top right;
+}
+.n-erweima{
+    float: left;
+    width: 500px;
+}
+.n-address-con{
+    margin-top: 40px;
+    padding-right: 20px;
+}
+.n-address-con img{
+    width: 240px;
+}
+.n-address-con div {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.n-cons{
+    float: right;
+}
+.n-address h3{
+    font-weight: 500;
+    color: rgb(196,176,125);
+}
+.n-address{
+    margin: 10px 0;
+    font-size: 12px;
+    color: rgb(196,176,125);
+}
+.n-erweima-con{
+    margin-top: 70px;
+}
+.n-erweimabox{
+    float: left;
+    text-align: center;
+    color: rgb(196,176,125);
+    margin-left: 70px;
+}
+.n-erweimabox p{
+    margin-top: 10px;
+}
+
+.n-copyright {
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(196,176,125);
+}
+
+
+/*底部结束*/
