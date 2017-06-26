@@ -1,0 +1,351 @@
+@import "public.css";
+a{
+    color:#333;
+}
+body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input{padding: 0;margin: 0;list-style:none;}
+img{border: none;margin: 0;padding: 0;}
+a{text-decoration: none;}
+*{box-sizing:border-box}
+html, body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", 微软雅黑, Verdana, Arial;
+    background-color: rgb(255, 255, 255);
+}
+/*导航部分开始*/
+.n-nav{
+    position: fixed;
+    background-color: rgba(51,51,51,0.7);
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgb(97,96,115);
+    z-index:100;
+}
+.n-nav-content{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.n-nav-logo{
+    float: left;
+    margin-top: 7px;
+    display: block;
+}
+.n-nav-logo img {
+    display: block;
+    border: none;
+}
+.n-nav-list{
+    height: 100%;
+    letter-spacing: 1px;
+    line-height: 97px;
+    float: right;
+}
+.n-nav-list li{
+    position: relative;
+    float: left;
+
+    margin: 0 8px;
+    transition: all .3s ease-in-out;
+}
+.n-nav-list li>a{
+    position: relative;
+    z-index: 100;
+    padding: 10px;
+    color: rgb(196,176,125);
+    letter-spacing: 1px;
+    line-height: 97px;
+}
+.n-nav-list li:hover, .n-nav-list li.actived {
+    border-bottom: 3px solid rgb(196,176,125);
+}
+.n-nav-list li:hover a {
+    background-color: rgb(247,237,211);
+}
+
+.nav-hidden-list{
+    position: absolute;
+    display: none;
+    left: 0;
+    min-width: 100%;
+    top: 70px;
+    padding: 5px 0;
+    line-height: 25px;
+    background-color: rgb(247,237,211);
+    z-index: 90;
+}
+.nav-hidden-list a{
+    display: block;
+    line-height: 25px;
+    padding: 0 10px;
+    margin: 5px 0;
+    color: rgb(196,176,125);
+}
+.hidden{
+    display: block;
+}
+
+/*导航部分结束*/
+/*banner图开始*/
+.n-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*banner图结束*/
+
+/*内容*/
+.wh-cont{
+    width:1349px;
+    height:251px;
+    margin:0 auto;
+    padding:40px 0 20px 0;
+}
+.wh-cont-cont1{
+    width:1200px;
+    height:121px;
+    margin:0 auto;
+}
+.wh-cont-top{
+    width:144px;
+    height: 38px;
+    line-height: 35px;
+    color: rgb(196,176,125);
+    padding: 0 15px;
+    border-left: 2px solid rgb(196,176,125);
+    margin:0 auto;
+    border-left:1px solid #ccc;
+    font-weight: 500;
+    font-size:28px;
+}
+.wh-cont-top1{
+    width:1200px;
+    height:24px;
+    text-align: center;
+    margin:20px 0 20px 0;
+    font-size: 18px;
+    color: rgb(196,176,125);
+}
+.wh-cont-kuai{
+    width:15px;
+    height:15px;
+    background:rgb(196,176,125);
+    margin:0 auto;
+}
+.wh-cont-cont2{
+    width:1200px;
+    height:19px;
+    margin:0 auto;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.wh-cont-nav{
+    height:61px;
+    line-height: 61px;
+}
+.wh-cont-nav:first-child{
+    border-bottom:2px solid rgb(196,176,125);
+}
+.wh-cont-nav:hover{
+    border-bottom:2px solid rgb(196,176,125);
+}
+.wh-cont-cont3{
+    width:1200px;
+    height:315px;
+    margin:0 auto;
+    background:red;
+}
+.wh-cont-img{
+    width:574px;
+    height:315px;
+    float:left;
+}
+.wh-cont-neirong{
+    width:626px;
+    height:315px;
+    background:rgb(196,176,125);
+    float:left;
+}
+/*业务范围*/
+.wh-catebox{
+    width:1200px;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+.wh-yewu{
+    width:336px;
+    height:32px;
+    position: relative;
+    margin-top: 40px;
+    line-height: 30px;
+    padding: 0 15px;
+    color: rgb(196,176,125);
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(196,176,125);
+    border-left: 5px solid rgb(196,176,125);
+}
+.wh-yewu-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 20px solid rgb(196,176,125);
+    border-top: 20px solid transparent;
+}
+.wh-cont-nairongbix{
+    width:536px;
+    height:265px;
+    margin:30px 45px;
+}
+.wh-yewu-nav{
+    margin-top:40px;
+}
+.wh-cont-title{
+    width:536px;
+    height:25px;
+    text-align: center;
+    color:#fff;
+    margin-bottom:15px;
+}
+.wh-cont-jianjie{
+    width:535px;
+    height:225px;
+    overflow: auto;
+    color:#fff;
+    font-size:14px;
+}
+
+/*列表*/
+.wh-cont-categroy{
+    width:1200px;
+    margin:0 auto;
+    margin-top:50px;
+}
+.wh-categroy-show{
+    width:1200px;
+    height:90px;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+.wh-categroy-date{
+    width:90px;
+    height:90px;
+    background:rgb(239,240,242);
+    color:#333;
+    float:left;
+}
+.wh-date1{
+    width:100%;
+    height:26px;
+    margin-top:20px;
+    text-align: center;
+    font-size:20px;
+}
+.wh-date2{
+    width:100%;
+    height:19px;
+    text-align: center;
+    font-size:14px;
+}
+.wh-categroy-title{
+    width:1110px;
+    height:90px;
+    float:left;
+    padding:6px;
+}
+.wh-title-box{
+    width:1085px;
+    height:56px;
+    margin-left:20px;
+}
+.wh-title-a{
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+}
+.wh-categroy-show:hover .wh-categroy-date{
+    background:rgb(196,176,125);
+    color:#fff;
+}
+.wh-categroy-show:hover .wh-categroy-title{
+    background:rgb(239,240,242);
+}
+.wh-categroy-show:hover .wh-title-a{
+    color:rgb(196,176,125);
+   text-decoration:underline;
+}
+/*底部开始*/
+.n-footer{
+    background-color: rgb(31,31,31);
+    position: relative;
+    height: auto;
+}
+.n-content{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.n-address{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    float: left;
+    background-image: url(../images/njm/footer-xian.png);
+    background-repeat: repeat-y;
+    background-position: top right;
+}
+.n-erweima{
+    float: left;
+    width: 500px;
+}
+.n-address-con{
+    margin-top: 40px;
+    padding-right: 20px;
+}
+.n-address-con img{
+    width: 240px;
+}
+.n-address-con div {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.n-cons{
+    float: right;
+}
+.n-address h3{
+    font-weight: 500;
+    color: rgb(196,176,125);
+}
+.n-address{
+    margin: 10px 0;
+    font-size: 12px;
+    color: rgb(196,176,125);
+}
+.n-erweima-con{
+    margin-top: 70px;
+}
+.n-erweimabox{
+    float: left;
+    text-align: center;
+    color: rgb(196,176,125);
+    margin-left: 70px;
+}
+.n-erweimabox p{
+    margin-top: 10px;
+}
+
+.n-copyright {
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(196,176,125);
+}
+/*底部结束*/
+
+
+
+
